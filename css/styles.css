@@ -1,3 +1,42 @@
-h1 {
-    border: 4px solid black;
+p {
+    border: 4px solid rgb(25, 163, 90);
 }
+p {
+    border: 4px solid rgb(218, 32, 35);
+}
+.main-title {
+    border: 4px solid rgb(105, 39, 219);
+}
+/* [type="button"] {
+    border: 4px solid blueviolet;
+} */
+.button {
+    color: #faf4ea;
+    background-color: #819B57;
+    border: 2px solid #819B57;
+    border-radius: 8px;
+    cursor: pointer;
+
+    width: 238px;
+    height: 59px;
+}
+.button:hover {
+    color:  #465929;
+    background-color: transparent;
+}
+
+.button:active {
+    background-color: palevioletred;
+}
+
+
+.button[disabled] {
+    border: 2px solid rgb(85, 48, 232);
+}
+.main-section {
+    color: rgb(6, 91, 63);
+}
+.main-section > h1 {
+    background-color:rgb(221, 14, 138);
+}
+
