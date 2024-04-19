@@ -39,6 +39,10 @@
 }
 
 /* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: var(--color-primery-dark);
     font-family: "Poppins", sans-serif;

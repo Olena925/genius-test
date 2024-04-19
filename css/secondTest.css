@@ -1,0 +1,14 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #53c553;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
