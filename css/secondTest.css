@@ -3,12 +3,45 @@
     box-sizing: border-box;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: #53c553;
-    border-bottom: 2px solid red;
-    border-radius: 5px;
-    padding-top: 10px;
-    margin-left: 20px;
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
+
+.item {
+    /* display: none; скриває контент до якого заданий */
+    flex-basis: 100px; /* width */
+    height: 100px;
+    background-color: #4693cf;
+    /* border-bottom: 2px solid red;
+    border-radius: 5px; */
+    border: 6px solid rgb(158, 210, 67);
+    /* padding-top: 10px;
+    margin-left: 20px; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.item:nth-child(2) {
+    flex-basis: 40px;
+    height: 40px;
+    align-self: end;
+}
+
+/* .item:nth-child(2) {
+    flex-grow: 1;
+}
+
+.item:nth-child(3) {
+    flex-grow: 2; /* буде у два рази більшим ніж елемент 2 */
+} */
+
+/* .item:nth-child(2) {
+    width: 50px;
+    height: 50px;
+}
+
+.item:last-child{
+    width: 80px;
+    height: 80px;
+} */
