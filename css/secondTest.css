@@ -70,6 +70,7 @@
     border: 2px solid black;
     margin: 20px auto;
     background-image: radial-gradient(gold, green ,blue);
+    box-shadow: 10px 10px 10px 5px green, 25px 22px 30px 2px rgb(192, 23, 177);
 }
 
 .radialTwo {
