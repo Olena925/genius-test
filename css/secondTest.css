@@ -3,6 +3,98 @@
     box-sizing: border-box;
 }
 
+.container {
+    padding: 20px;
+    border: 2px dotted orange;
+}
+
+.parent {
+    padding: 20px;
+    border: 2px dotted orange;
+
+}
+.positions.red {
+    position: relative;
+    top: 40px;
+    left: 50px;
+    /* right: 0px; */
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.positions.green {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.positions.blue {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.positions.violet {
+    position: sticky;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: violet;
+}
+
+.position.pink {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: pink;
+}
+
+.position.black {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+
+.containerTwo {
+    margin-top: 60px;
+    padding: 20px;
+    border: 2px dotted orange;
+}
+
+.position.lightgreen {
+    width: 180px;
+    height: 180px;
+    background-color: lightgreen;
+    overflow: auto;
+}
+
+.position.darkblue {
+    width: 80px;
+    height: 80px;
+    background-color: darkblue;
+}
+
+.sectionTitie {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: violet;
+    text-align: center;
+}
+
+
+
 .flex-container {
     display: flex;
     justify-content: center;
