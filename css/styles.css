@@ -469,6 +469,7 @@ ul {
     color: #A18268;
 }
 
+<<<<<<< HEAD
 
 /* Modal window */
 
@@ -506,4 +507,24 @@ ul {
     position: absolute;
     top: 40px;
     right: 40px;
+=======
+.footer {
+    background-image: url(../images/footerBg.png);
+    background-color: var(--color-primery-dark);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer::before {
+    position: absolute;
+    background-image: url(../images/decor-bread-small.png);
+    content: '';
+}
+
+.footer::after {
+    position: absolute;
+    background-image: url(../images/decor-bread-large.png);
+    content: '';
+>>>>>>> 1b76841ef86cbd7f439c9833d50353661e5f7cb5
 }
