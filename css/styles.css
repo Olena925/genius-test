@@ -244,17 +244,27 @@ ul {
 /* Chef section */
 
 .chefs-title {
-    max-width: 535px;
+    position: relative;
+    /* max-width: 535px; */
     margin: 0 auto 80px;
 }
 
 
 .chefs-title::before,
 .chefs-title::after {
-    display: block;
+    position: absolute;
+    bottom: 24px;
     width: 352px;
     border: 2px solid var(--color-decoreite);
     content: '';
+}
+
+.chefs-title::before {
+    left: 0;
+}
+
+.chefs-title::after {
+    right: 0;
 }
 
 .chefs-list {
@@ -437,4 +447,16 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.footer::before {
+    position: absolute;
+    background-image: url(../images/decor-bread-small.png);
+    content: '';
+}
+
+.footer::after {
+    position: absolute;
+    background-image: url(../images/decor-bread-large.png);
+    content: '';
 }
