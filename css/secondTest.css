@@ -3,6 +3,56 @@
     box-sizing: border-box;
 }
 
+/* transform */
+
+.transform {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.event{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.event.crimson {
+    width: 80px;
+    height: 80px;
+    background: crimson;
+    /* transform: translate(10px, 50px); */
+    /* transform: translateY(10px); */
+    transform: translateX(-30px);
+}
+
+.event.chartreuse {
+    width: 120px;
+    height: 120px;
+    background: chartreuse;
+    transform: rotate(45deg);
+}
+
+.event.aqua {
+    width: 50px;
+    height: 50px;
+    background: aqua;
+    transform: scale(3.5);
+}
+
+.event.coral {
+    width: 150px;
+    height: 150px;
+    background: coral;
+    transform: skew(20deg, 30deg);
+    z-index: 1;
+}
+
+
+/* position */
 .container {
     padding: 20px;
     border: 2px dotted orange;
@@ -94,7 +144,7 @@
 }
 
 
-
+/* Flex */
 .flex-container {
     display: flex;
     justify-content: center;
