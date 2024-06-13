@@ -294,9 +294,49 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-btn-close" type="button">Close</button>
+        <form name="contact-form" autocomplete="off" novalidate>
+          <h2>Замовити дзвінок</h2>
+          <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+
+          <div class="form-field">
+            <label class="form-label" for="user-name">Ім'я</label>
+            <input
+              class="form-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="user-tel">Телефон</label>
+            <input
+              class="form-input"
+              type="text"
+              id="user-tel"
+              name="user-tel"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="user-email">Електронна пошта</label>
+            <input
+              class="form-input"
+              type="email"
+              id="user-email"
+              name="user-email"
+            />
+          </div>
+
+          <button type="submit">Замовити дзвінок</button>
+          <p>
+            Натискаючи на кнопку я погоджуюсь
+            <a href="#">з політикою конфіденційності</a>
+          </p>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
