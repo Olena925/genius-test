@@ -604,7 +604,7 @@ ul {
     text-underline-offset: 2px;
 }
 
-.checkbox {
+/* .checkbox {
     position: relative;
 }
 
@@ -614,6 +614,7 @@ ul {
 
 .checkbox-input:checked + .checkbox-label::before {
     background-color: lightgreen;
+    background-image: url();шлях до спрайту 
 }
 
 .checkbox-label {
@@ -631,4 +632,4 @@ ul {
     border-radius: 2px;
     content: '';
 
-}
+} */
