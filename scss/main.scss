@@ -1,0 +1,54 @@
+/* font-face */
+@import './utils/fonts';
+
+/* Css-змінна */
+@import './utils/variables';
+
+/* Global Styles */
+@import './base';
+
+// Utils
+@import './utils/utils';
+
+/* Button */
+@import './components/buttons';
+
+/* Link */
+@import './components/links';
+
+/* Header section */
+@import './components/heder';
+
+/* Hero section */
+@import './components/hero_stction';
+
+/* Advantages section */
+@import './components/advantages_section';
+
+/* Traditions Section */
+@import './components/traditions_section';
+
+/* Chef section */
+@import './components/chefs_section';
+
+
+/* Formats section */
+@import './components/formats_section';
+
+/* Carousel */
+@import './components/carousel';
+
+/* Contact section */
+@import './components/contact_section';
+
+/* Footer section */
+@import './components/footer_section';
+
+/* Modal window */
+@import './components/modal_window';
+
+/* Form */
+@import './components/forms';
+
+/* Mixins */
+@import './utils/mixins';
