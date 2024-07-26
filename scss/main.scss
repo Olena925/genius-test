@@ -7,7 +7,7 @@
 /* Global Styles */
 @import './base';
 
-// Utils
+/* Utils */
 @import './utils/utils';
 
 /* Button */
@@ -17,38 +17,55 @@
 @import './components/links';
 
 /* Header section */
-@import './components/heder';
+@import './layouts/heder';
 
 /* Hero section */
-@import './components/hero_stction';
+@import './layouts/hero_setction';
 
 /* Advantages section */
-@import './components/advantages_section';
+@import './layouts/advantages_section';
 
 /* Traditions Section */
-@import './components/traditions_section';
+@import './layouts/traditions_section';
 
 /* Chef section */
-@import './components/chefs_section';
+@import './layouts/chefs_section';
 
+/* Chef ccard */ 
+@import './components/chef-card';
 
 /* Formats section */
-@import './components/formats_section';
+@import './layouts/formats_section';
+
+/* Formats card */
+@import './components/format-card';
 
 /* Carousel */
-@import './components/carousel';
+@import './components/_carousel_button';
 
 /* Contact section */
-@import './components/contact_section';
+@import './layouts/contact_section';
 
 /* Footer section */
-@import './components/footer_section';
+@import './layouts/footer';
 
 /* Modal window */
-@import './components/modal_window';
+@import './layouts/modal';
 
-/* Form */
-@import './components/forms';
+/* Form terms */
+@import './layouts/form-terms';
 
 /* Mixins */
 @import './utils/mixins';
+
+/* Container */
+@import './layouts/container';
+
+/* section */
+@import './layouts/section';
+
+/* Text color bold uppercase */ 
+@import './utils/text';
+
+/* input */
+@import './components/input';
