@@ -316,16 +316,16 @@
     <footer class="footer">
       <div class="container">
         <!-- footer -->
-        <div class="footer-container">
-          <nav class="footer-nav">
-            <div class="footer-logo">
+        <div class="footer__container">
+          <nav class="footer__nav">
+            <div class="footer__logo">
               <a href="./index.html">
                 <!-- logo -->
                 <img src="./images/logo.svg" alt="logo" />
               </a>
             </div>
 
-            <ul class="footer-menu">
+            <ul class="footer__menu">
               <li>
                 <a class="link" href="#tradition-section">Наші традиції</a>
               </li>
@@ -334,32 +334,35 @@
               <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
           </nav>
-          <address class="footer-address">
-            <ul class="address-list">
+          <address class="footer__address">
+            <ul class="footer__address-list">
               <li>
-                <a class="address-link" href="tel:+380960000007"
-                  >+ 38 (096) 000 00 07</a
-                >
+                <a class="footer__address-link" href="tel:+380960000007">
+                  + 38 (096) 000 00 07
+                </a>
               </li>
               <li>
-                <a class="address-link" href="mailto:shopbakery@gmail.com"
+                <a
+                  class="footer__address-link"
+                  href="mailto:shopbakery@gmail.com"
                   >shopbakery@gmail.com</a
                 >
               </li>
 
               <li>
                 <a
-                  class="address-link"
+                  class="footer__address-link"
                   href="https://maps.app.goo.gl/MYM3tRZ3UVz25qGt8"
                   target="_blank"
                 >
                   Україна, м. Київ, вул. Січових Стрільців 54
                 </a>
               </li>
+              <!-- відобразити іконки поряд -->
               <li>
                 <a href="#">
                   <!-- facebook icon SVG -->
-                  <svg class="adress-icon" width="32" height="32">
+                  <svg class="footer__adress-icon" width="32" height="32">
                     <use
                       href="./images/symbol-defs.svg#icon-facebookIcon"
                     ></use>
@@ -369,7 +372,7 @@
               <li>
                 <a href="#">
                   <!-- instagram icon SVG -->
-                  <svg class="adress-icon" width="32" height="32">
+                  <svg class="footer__adress-icon" width="32" height="32">
                     <use
                       href="./images/symbol-defs.svg#icon-instagramIcon"
                     ></use>
@@ -377,11 +380,11 @@
                 </a>
               </li>
             </ul>
-            <div class="address-info">
-              <a class="address-link" href="#" target="_blank">
+            <div class="footer__address-info">
+              <a class="footer__address-link" href="#" target="_blank">
                 Політика конфіденційності
               </a>
-              <p class="address-copyright">&copy; 2022 Дані захищені</p>
+              <p class="footer__address-copyright">&copy; 2022 Дані захищені</p>
             </div>
           </address>
         </div>
@@ -393,35 +396,36 @@
         <button class="modal__btn-close modal-btn-close" type="button">
           Close
         </button>
-        <form name="modal-form" autocomplete="off">
-          <h2>Замовити дзвінок</h2>
-          <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
 
+        <h2>Замовити дзвінок</h2>
+        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+
+        <form name="modal-form" autocomplete="off">
           <div class="modal__form-field input">
-            <label class="input__label visually-hidden" for="user-name">
+            <label class="input__label visually-hidden" for="users-name">
               Ім'я
             </label>
             <input
               class="input__control"
               type="text"
-              id="user-name"
-              name="user-name"
+              id="users-name"
+              name="users-name"
               placeholder="Ім'я"
-              minlength="1"
-              maxlength="30"
+              minlength="2"
+              maxlength="20"
               required
             />
           </div>
 
           <div class="modal__form-field input">
-            <label class="input__label visually-hidden" for="user-tel">
+            <label class="input__label visually-hidden" for="users-tel">
               Телефон
             </label>
             <input
               class="input__control"
               type="tel"
-              id="user-tel"
-              name="user-tel"
+              id="users-tel"
+              name="users-tel"
               placeholder="Телефон"
               pattern="^\+[0-9]{12}"
               required
@@ -429,14 +433,14 @@
           </div>
 
           <div class="modal__form-field input">
-            <label class="input__label visually-hidden" for="user-email">
+            <label class="input__label visually-hidden" for="users-email">
               Електронна пошта
             </label>
             <input
               class="input__control"
               type="email"
-              id="user-email"
-              name="user-email"
+              id="users-email"
+              name="users-email"
               placeholder="Електронна пошта"
               required
             />
